@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 237, 216);
+  color: rgb(8, 18, 30);
+  font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Claro-Escuro{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+a{
+   color: lavender;
+   text-decoration: none;
+   transition: color 0.3s ease;
+
+}
+header{
+   text-align: center;
+   background: #1c284d;
+
+}
+nav {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  height: 10vh;
+  padding-right: 5%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.flex-container .lampada-img {
+  display: flex;
+  align-items: center;
+
+}
+
+.Claro-Escuro {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+a:hover {
+  color: #c49ca4;
+
+}
+
+.nav-list li {
+   margin-left: 32px;
+
+}
+
+
+.text-anim-gif{
+  background: url(fundo3.png);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  transition: background 0.3s ease;
+
+}
+.gif_logoanmation {
+  text-align: center;
+
+}
+
+.infos-finais {
+  padding: 25px;
+  font-weight: bold;
+  font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.text-apresetacao {
+  text-align: center;
+  line-height: 140%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolio1{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio2 {
+  background-color: #f0e1d8;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.imgPortfolio {
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.txt_img {
+  text-align: center;
+  margin-right: 25px;
+}
+
+.imgs-porfolio {
+  font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+
+/*TEMA ESCURO*/
+
+
+body.dark-theme {
+  background-color: rgb(8, 18, 30);
+  color: lavenderblush;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme .text-anim-gif {
+  background-image: url(fundo.png);
+  transition: background 0.3s ease;
+}
+
+body.dark-theme .portfolio2 {
+  background: url(fundo.png); 
+  color: lavenderblush;
+  transition: background-color 0.3s ease;
+}
+
+header.dark-theme{
+  background-color: rgb(8, 18, 30);
+
+}
+
